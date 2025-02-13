@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* shared styles */
+.header-button-one {
+    color: white;
+    background-color: rgba(230, 83, 60, 1);
+    padding: 16px 47px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 42px;
+    border: none;
+}
+
+.header-button-two {
+    color: white;
+    background-color: transparent;
+    padding: 16px 47px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 42px;
+    border: 2px solid white;
+}
+
+/* header part styling */
+
+header {
+    background-color: black;
+    background-image: linear-gradient(to right, rgba(17, 17, 17, 1), rgba(119, 119, 119, 0));
+
+}
+
+.navbar {
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    padding-top: 57px;
+}
+
+.navbar-heading {
+    font-weight: 800;
+    font-size: 2.25rem;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 47px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+    border-radius: 38px;
+    padding: 4px;
+
+
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#home-link {
+    padding: 8px 20px;
+    color: white;
+    background-color: rgba(230, 83, 60, 1);
+    border: 2px solid transparent;
+    border-radius: 38px;
+    font-weight: 600;
+
+
+}
+
+#about-link {
+    margin-right: 24px;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+
+/* header part styling */
+
+.header-contents {
+    max-width: 70%;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-contents-wrapper {
+    max-width: 55%;
+    gap: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title {
+    font-weight: 900;
+    font-size: 4.875rem;
+}
+
+.shape {
+    font-family: 'Miama';
+    font-weight: 400;
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.header-buttons {
+    display: flex;
+    gap: 14px;
+}
+
+/* cards */
+.header-bg-card {
+    position: relative;
+}
+
+.card-one {
+    position: absolute;
+    top: 70%;
+    right: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 50%;
+    padding: 20px 23px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-one-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.card-one-description {
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+.card-two {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 17px 24px;
+    width: 38%;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+
+.card-two-title {
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.card-two-description {
+    font-weight: 400;
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.65);
+
+}
