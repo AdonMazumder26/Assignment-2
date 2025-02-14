@@ -109,4 +109,28 @@
         grid-template-columns: repeat(1, 1fr);
         max-width: 80%;
     }
+
+
+
+    .footer-wrapper{
+        flex-direction: column;
+        max-width: 100%;
+        gap: 30px;
+        /* margin: 0px; */
+    }
+
+    .fitness{
+        max-width: 90%;
+    }
+
+    .get-started-one{
+        max-width: 100%;
+        
+    }
+
+    .list-heading{
+        max-width: 100%;
+    }
+
+    
 }
