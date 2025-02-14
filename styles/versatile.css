@@ -4,7 +4,7 @@
 .inter-font {
     font-family: "Inter", serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -15,6 +15,10 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: black;
 }
 
 /* shared styles */
@@ -38,11 +42,23 @@
     border: 2px solid white;
 }
 
+.heading-style {
+    font-weight: 900;
+    font-size: 3rem;
+    color: white;
+}
+
+.heading-description-style {
+    font-weight: 400;
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
 /* header part styling */
 
 header {
     background-color: black;
-    background-image: linear-gradient(to right, rgba(17, 17, 17, 1), rgba(119, 119, 119, 0));
+    background-image: linear-gradient(180deg, rgba(17, 17, 17, 1), rgba(119, 119, 119, 0));
 
 }
 
@@ -142,7 +158,7 @@ header {
     gap: 14px;
 }
 
-/* cards */
+/* header cards */
 .header-bg-card {
     position: relative;
 }
@@ -197,3 +213,283 @@ header {
     color: rgba(255, 255, 255, 0.65);
 
 }
+
+/* habits section */
+
+main>section {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.habits-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    gap: 58px;
+}
+
+.habits-wrapper {
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.habits-title {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.habits-description {
+    font-size: .95rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.habits-card-wrapper {
+    display: flex;
+    gap: 40px;
+
+
+}
+
+.habits-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    gap: 30px;
+    ;
+    justify-content: center;
+    align-items: center;
+}
+
+.habit-card-img {
+    width: 180px;
+    height: 180px;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-radius: 96px;
+
+
+}
+
+.habits-card-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .95rem;
+}
+
+/* extra mile styling */
+
+.extra-mile-wrapper {
+    background-color: rgba(34, 34, 34, 1);
+    display: flex;
+    max-width: 70%;
+    margin: 100px auto;
+    padding: 30px;
+    justify-content: space-between;
+    border-radius: 18px;
+    align-items: center;
+
+
+}
+
+.extra-mile-contents {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 48%;
+    gap: 30px;
+
+
+}
+
+.extra-mile-heading {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.extra-mile-description {
+    font-weight: 400;
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#extra-mile-img {
+    width: 40%;
+    border-radius: 18px;
+
+}
+
+/* bmi styling part */
+
+.bmi-bg-color{
+    max-width: 100%;
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.bmi-heading {
+    margin: 0 auto;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.bmi-calculator {
+    max-width: 70%;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgba(34, 34, 34, 1);
+    justify-content: left;
+    align-items: center;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+
+.bmi-table-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    color: white;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.table-heading {
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.bmi-table {
+    font-weight: 300;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 50%;
+    
+}
+
+.bmi-table th {
+    font-weight: 300;
+    padding: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    
+
+}
+.bmi-table td {
+    padding: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .9rem;
+
+}
+
+.bmi-form-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.bmi-title{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.form-heading{
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.form-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+input, select{
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 13px 20px;
+}
+
+/* team  */
+.team-heading{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-align: center;
+    max-width: 45%;
+    margin: 0px auto;
+    margin-top: 80px;
+
+}
+.team-title{
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.team-description{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.team-card-wrapper{
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: rgba(34, 34, 34, 1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 18px;
+    margin-bottom: 88px;
+}
+
+.team-card{
+    position: relative;
+    color: white;
+}
+
+.team-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.card-title{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    font-weight: 900;
+    font-size: 1.25rem;
+}
+.card-description{
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    font-weight: 400;
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* footer part */

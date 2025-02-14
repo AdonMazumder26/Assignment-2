@@ -25,10 +25,88 @@
     }
 
     .header-contents-wrapper {
-        max-width: fit-content;
+        max-width: 100%;
     }
 
-    .header-bg-card{
+    .header-bg-card {
         max-width: 90%;
+    }
+
+    .habits-wrapper {
+        max-width: 90%;
+    }
+
+    .habits-title {
+        font-size: 2rem;
+    }
+
+
+    .habits-card-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .extra-mile-wrapper {
+        flex-direction: column;
+        max-width: 80%;
+        gap: 30px;
+    }
+
+    .extra-mile-contents {
+        max-width: 100%;
+    }
+
+    .btn-wrapper {
+        max-width: 100%;
+    }
+
+    #extra-mile-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .bmi-heading {
+        max-width: 90%;
+    }
+
+    .bmi-title {
+        font-size: 2rem;
+    }
+
+    .bmi-calculator {
+        flex-direction: column;
+        max-width: 90%;
+        gap: 42px;
+    }
+
+    .bmi-table-contents {
+        max-width: 100%;
+    }
+
+    .bmi-table {
+        max-width: 100%;
+        table-layout: fixed;
+    }
+
+    .table-heading {
+        font-size: 1rem;
+    }
+
+    .form-heading {
+        font-size: 1rem;
+    }
+
+    .team-heading{
+        max-width: 100%;
+
+    }
+    .team-title{
+        font-size: 2rem;
+    }
+
+    .team-card-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 80%;
     }
 }
