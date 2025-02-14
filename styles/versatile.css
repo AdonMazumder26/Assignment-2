@@ -491,6 +491,39 @@ input, select{
     font-size: .9rem;
     color: rgba(255, 255, 255, 0.5);
 }
+/* challenge */
+.challenge{
+    display: flex;
+    max-width: 72%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+}
+
+.challenge-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    justify-content: center;
+    max-width: 45%;
+}
+
+.challenge-title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.challenge-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+.challenge-img{
+    border-radius: 8px;
+}
 
 /* footer part */
 

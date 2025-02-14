@@ -132,5 +132,20 @@
         max-width: 100%;
     }
 
-    
+    .challenge{
+        flex-direction: column;
+        max-width: 90%;
+        gap: 30px;
+    }
+
+    .challenge-contents{
+        max-width: 90%;
+    }
+
+    .challenge-title{
+        font-size: 2rem;
+    }
+    .challenge-img{
+        width: 100%;
+    }
 }
